@@ -1091,7 +1091,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-transition-group@npm:^4.2.0, @types/react-transition-group@npm:^4.4.1, @types/react-transition-group@npm:^4.4.4":
+"@types/react-transition-group@npm:^4.2.0, @types/react-transition-group@npm:^4.4.4":
   version: 4.4.5
   resolution: "@types/react-transition-group@npm:4.4.5"
   dependencies:
@@ -1269,9 +1269,6 @@ __metadata:
     "@types/redux": 3.6.0
     "@vitejs/plugin-react": ^3.1.0
     axios: 0.21.4
-    input-currency-react: ^1.0.1
-    primereact: ^9.3.1
-    prop-types: ^15.8.1
     react: ^17
     react-alice-carousel: ^2.7.1
     react-currency-input-field: ^3.6.10
@@ -1911,15 +1908,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"input-currency-react@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "input-currency-react@npm:1.0.1"
-  peerDependencies:
-    react: ">=16"
-  checksum: bbd61196bc3771b6f7f9225b5c7763952eb177a6903a509f7657499e9b24a68db6a2493c918b66d37a0f58b272035b829e42bf8efd3df43b70af47021509c555
-  languageName: node
-  linkType: hard
-
 "invariant@npm:^2.2.4":
   version: 2.2.4
   resolution: "invariant@npm:2.2.4"
@@ -2450,23 +2438,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"primereact@npm:^9.3.1":
-  version: 9.3.1
-  resolution: "primereact@npm:9.3.1"
-  dependencies:
-    "@types/react-transition-group": ^4.4.1
-    react-transition-group: ^4.4.1
-  peerDependencies:
-    "@types/react": ^17.0.0 || ^18.0.0
-    react: ^17.0.0 || ^18.0.0
-    react-dom: ^17.0.0 || ^18.0.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  checksum: 9b6390857087e658ed2531d954021e5f0fcb6490ccbaf83d2fef61f8e71525b77adf43d78b8a6a415503e38543502b9fad3d8e02e1f940b3620be227afee6951
-  languageName: node
-  linkType: hard
-
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1
   resolution: "promise-inflight@npm:1.0.1"
@@ -2636,7 +2607,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-transition-group@npm:^4.4.0, react-transition-group@npm:^4.4.1, react-transition-group@npm:^4.4.2":
+"react-transition-group@npm:^4.4.0, react-transition-group@npm:^4.4.2":
   version: 4.4.5
   resolution: "react-transition-group@npm:4.4.5"
   dependencies:
