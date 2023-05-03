@@ -21,9 +21,7 @@
     "@types/react-swipeable-views": "^0.13.1",
     "@types/redux": "3.6.0",
     "axios": "0.21.4",
-    "input-currency-react": "^1.0.1",
-    "primereact": "^9.3.1",
-    "prop-types": "^15.8.1",
+  
     "react": "^17",
     "react-alice-carousel": "^2.7.1",
     "react-currency-input-field": "^3.6.10",
