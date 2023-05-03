@@ -1287,15 +1287,12 @@ __metadata:
     react-currency-masked-input: ^2.5.0
     react-dom: ^17
     react-input-mask: ^2.0.4
-    react-number-format: ^5.1.4
     react-redux: 7.2.5
     react-router-dom: 6
     react-swipeable-views: ^0.14.0
     react-swipeable-views-utils: ^0.14.0
-    react-text-mask: ^5.5.0
     react-toastify: 8.0.3
     react-use-localstorage: 3.5.3
-    text-mask-addons: ^3.8.0
     typescript: ^4.9.3
     vite: ^4.2.0
   languageName: unknown
@@ -2505,7 +2502,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.4, prop-types@npm:^15.5.6, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.5.4, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -2606,18 +2603,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-number-format@npm:^5.1.4":
-  version: 5.1.4
-  resolution: "react-number-format@npm:5.1.4"
-  dependencies:
-    prop-types: ^15.7.2
-  peerDependencies:
-    react: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 770a1e86cd05d9df28aa5e6a12c5731351dd4a301464edd0ac5dcbc68d2f07eae37781ff14f6153566cbb7cccb28f13f0826d1844600d25ae6e12da060814282
-  languageName: node
-  linkType: hard
-
 "react-redux@npm:7.2.5":
   version: 7.2.5
   resolution: "react-redux@npm:7.2.5"
@@ -2706,17 +2691,6 @@ __metadata:
   peerDependencies:
     react: ^15.3.0 || ^16.0.0 || ^17.0.0
   checksum: 477bcf2d6b88312cd74c069c23aff48983209ce74b8d10c0d6adabf00795735f55a9c12dc3f23e5d7168308959f18c178d486821abec02e8a562295eada3568b
-  languageName: node
-  linkType: hard
-
-"react-text-mask@npm:^5.5.0":
-  version: 5.5.0
-  resolution: "react-text-mask@npm:5.5.0"
-  dependencies:
-    prop-types: ^15.5.6
-  peerDependencies:
-    react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: ccfd425a66cf074fd3e4823bf4d1a4f07caf81309f7c1461e524c32ae53b17a666855a8dcc1c73206e9d8e4a6a9460f66f767aac6ba18034b663521848294c5c
   languageName: node
   linkType: hard
 
@@ -3055,13 +3029,6 @@ __metadata:
     mkdirp: ^1.0.3
     yallist: ^4.0.0
   checksum: 8a278bed123aa9f53549b256a36b719e317c8b96fe86a63406f3c62887f78267cea9b22dc6f7007009738509800d4a4dccc444abd71d762287c90f35b002eb1c
-  languageName: node
-  linkType: hard
-
-"text-mask-addons@npm:^3.8.0":
-  version: 3.8.0
-  resolution: "text-mask-addons@npm:3.8.0"
-  checksum: 5ffcef79be2bcd91f980b49d7b582df15e54823255609a9ce242b11c4bd1f6a0e785f0e1c7c8a9a4cef89bed0e27dd3c7af8557af0f5b17a84319e8704ca0972
   languageName: node
   linkType: hard
 
