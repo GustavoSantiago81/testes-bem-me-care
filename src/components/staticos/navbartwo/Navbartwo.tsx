@@ -13,7 +13,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ListItem from "@material-ui/core/ListItem";
 import List from "@material-ui/core/List";
 import "./Navbartwo.css";
-import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
 // Início componente NavbarTwo
@@ -139,45 +138,7 @@ export default function Navbartwo() {
           </Box>
         </Toolbar>
 
-        <SwipeableDrawer
-          anchor="right"
-          open={open}
-          onOpen={() => setOpen(true)}
-          onClose={() => setOpen(false)}
-          className="drawer"
-          classes={{ paper: classes.drawer }}
-        >
-          <div
-            onClick={() => setOpen(false)}
-            onKeyPress={() => setOpen(false)}
-            role="button"
-            tabIndex={0}
-          >
-            <IconButton>
-              <ChevronRightIcon />
-            </IconButton>
-          </div>
-          <Divider />
-          {pagesLinksTwo.map((pageTw) => (
-            <List>
-              <MenuItem key={pageTw.href} onClick={handleCloseNavMenu}>
-                <ListItem>
-                  <Link to={pageTw.href}>
-                    <Typography
-                      textAlign="center"
-                      className="botoesNavbarTwo"
-                      variant="h5"
-                      gutterBottom
-                      component="h5"
-                    >
-                      <Button>{pageTw.name}</Button>
-                    </Typography>
-                  </Link>
-                </ListItem>
-              </MenuItem>
-            </List>
-          ))}
-        </SwipeableDrawer>
+        
       </Container>
     </AppBar>
   );
