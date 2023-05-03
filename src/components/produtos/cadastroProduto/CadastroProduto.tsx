@@ -15,7 +15,6 @@ import {
   Typography,
 } from "@material-ui/core";
 import "./CadastroProduto.css";
-import { InputNumber } from "primereact/inputnumber";
 import InputMask from "react-input-mask";
 import { Categoria } from "../../../models/Categoria";
 import { toast } from "react-toastify";
